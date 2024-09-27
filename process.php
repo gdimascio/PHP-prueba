@@ -8,7 +8,7 @@
 
     // comprobar datos vacios
     if (empty($nombre) || empty($email) || empty($mensaje)) {
-        die "Formulario incompleto.";
+        die ("Formulario incompleto.");
     }
 
     // preparar la consulta SQL
